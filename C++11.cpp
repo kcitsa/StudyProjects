@@ -8,7 +8,7 @@ namespace cpp11 {
 		// Ещё auto делает код менее подверженным ошибкам, если тип контейнера изменится, код с auto автоматически подстроится.	
 
 		std::map<int, std::vector<std::string>>::iterator it = my_map.begin();  // До
-		auto it = my_map.begin();												// После
+		auto it = my_map.begin();						// После
 	}
 
 
